@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/userDetailContainerCv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/paddingXS"
+        app:contentPadding="@dimen/paddingXS"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTv">
+
+        <ImageView
+            android:id="@+id/avatarIv"
+            android:layout_width="@dimen/avatarSize"
+            android:layout_height="@dimen/avatarSize"
+            tools:src="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/avatarSize"
+            android:paddingLeft="@dimen/paddingXS"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding2XS"
+                android:textStyle="bold"
+                android:textSize="@dimen/userNameTextSize"
+                tools:text="User Name"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/black"
+                android:layout_marginBottom="@dimen/padding2XS"/>
+
+            <TextView
+                android:id="@+id/userLinkTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding2XS"
+                android:textSize="@dimen/descTextSize"
+                tools:text="http"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="paddingXS">20dp</dimen>
+    <dimen name="padding2XS">16dp</dimen>
+    <dimen name="padding3XS">12dp</dimen>
+    <dimen name="padding4XS">8dp</dimen>
+    <dimen name="headerHeight">64dp</dimen>
+    <dimen name="avatarSize">84dp</dimen>
+    <dimen name="headerTextSize">24sp</dimen>
+    <dimen name="userNameTextSize">20sp</dimen>
+    <dimen name="descTextSize">16sp</dimen>
+
+</resources>
