@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "TymeXHomeTest"
 include(":app")
+include(":domain")
+include(":data")
